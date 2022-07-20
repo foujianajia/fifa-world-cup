@@ -1,0 +1,83 @@
+/* Header part */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    border: white;
+    padding-left: 120px;
+    width: 100%;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 40px;
+    padding: 50px;
+    
+    border-radius: 15px;
+    background-color: darkcyan;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#img {
+    position: relative;
+    top: 53px;
+}
+main{
+    justify-content: center;
+}
+/* section part 2 */
+
+/* small box */
+.small-box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+.small-box button{
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: white;
+}
+.small-container{
+    width: 300px;
+    border: 2px solid lightgray ;
+    margin-left: 40px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+}
+.small-box button[class="active"]{
+    background-color: red;
+    color: white;
+    border: 0;
+}
