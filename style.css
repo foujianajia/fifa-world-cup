@@ -19,7 +19,7 @@ h1 {
     width: 900px;
     margin: 40px;
     padding: 50px;
-    
+
     border-radius: 15px;
     background-color: darkcyan;
 
@@ -38,13 +38,25 @@ h1 {
     position: relative;
     top: 53px;
 }
-main{
-    justify-content: center;
-}
+
 /* section part 2 */
+.responsive-part{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* small box */
-.small-box{
+.small-box {
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -53,31 +65,140 @@ main{
     margin-left: 30px;
     margin-bottom: 30px;
     margin-top: 20px;
-    
-    
-    
-    
+
+
+
+
 }
-.small-box button{
+
+.small-box button {
     margin-top: 20px;
     font-size: 1.5em;
-    padding: 15px;
+    padding: 10px;
     font-weight: 500;
     border-radius: 10px;
     background-color: white;
+    position: relative;
+    right: 20px;
 }
-.small-container{
-    width: 300px;
-    border: 2px solid lightgray ;
+
+.small-container {
+    width: 270px;
+    border: 2px solid lightgray;
     margin-left: 40px;
     background-color: lightslategrey;
     border-radius: 10px;
     align-items: center;
-    
-    
+
+
 }
-.small-box button[class="active"]{
+
+.small-box button[class="active"] {
     background-color: red;
     color: white;
     border: 0;
 }
+
+/* banner styles */
+.football-banner img {
+width: 231px;
+    height: 109px;
+    
+    padding: 0;
+    
+    position: relative;
+    right: 15px;
+    top: -15px;
+    
+}
+/* button */
+
+.transfer-click{
+    font-weight: 400;
+    border-radius: 4px;
+
+}
+
+
+/* information */
+.game-info {
+    display: flex;
+
+}
+.comment{
+    margin-left: 20px;
+}
+
+/* start-again */
+
+.football-cup{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    margin: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+.margin-left{
+    margin-left: 350px;
+    display: flex;
+    position: relative;
+    top: -265px;
+    height: 310px;
+    right: 30px;
+    
+
+}
+/*------ grid
+--------- ---*/
+.second-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5px;
+    justify-content: baseline;
+    width: 200px;
+    position: relative;
+    left: 320px;
+    top: -265px;
+
+
+
+}
+/* footer */
+footer{
+    background-color:black;
+    padding: 50px;
+    margin-right: 200px;
+    padding-right: 100px;
+    width: 100%;
+    position: relative;
+    right: 130px;
+
+    
+
+}
+
+.footer-property{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 350px;
+    color: burlywood;
+}
+ .goal{
+    position: relative;
+    left: 600px;  
+    color: aliceblue; 
+}
+.follow{
+    position: relative;
+    left: 600px;
+    color: rgb(239, 40, 0);
+}
+
+
+
+
+    
