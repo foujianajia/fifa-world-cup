@@ -1,18 +1,9 @@
-/* Header part */
-body {
-    font-family: 'Poppins', sans-serif;
+body{
     font-family: 'Roboto Slab', serif;
     border: white;
-    padding-left: 200px;
+    padding-left: 120px;
     width: 100%;
-
 }
-
-.game container:hover {
-    color: white;
-    background-color: black;
-}
-
 h1 {
     font-weight: 900;
     font-size: 50px;
@@ -44,23 +35,7 @@ h1 {
     top: 53px;
 }
 
-/* section part 2 */
-.responsive-part {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-
-
-
-
-
-
-
-
-
-
-/* small box */
+/* Second section */
 .small-box {
     display: flex;
     flex-direction: column;
@@ -103,79 +78,62 @@ h1 {
     color: white;
     border: 0;
 }
-
-/* banner styles */
-.football-banner img {
-    width: 231px;
-    height: 109px;
-
-    padding: 0;
-
-    position: relative;
-    right: 15px;
-    top: -15px;
-
+.active:hover {
+    background-color: green;
 }
-
-/* button */
-
-.transfer-click {
-    font-weight: 400;
-    border-radius: 4px;
-
-}
-
-
-/* information */
-.game-info {
-    display: flex;
-
-}
-
-.comment {
-    margin-left: 20px;
-}
-
-/* start-again */
-
-.football-cup {
-    border: 2px solid gray;
-    border-radius: 10px;
-    padding: 15px;
-    width: 200px;
-    margin: 5px;
-    padding-bottom: 5px;
-
-
-}
-
-.margin-left {
-    margin-left: 350px;
-    display: flex;
-    position: relative;
-    top: -265px;
-    height: 310px;
-    right: 30px;
-
-
-}
-
-/*------ grid
---------- ---*/
-.second-part {
+/* grid */
+.live-show{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 5px;
+    margin: 2px;
     justify-content: baseline;
     width: 200px;
     position: relative;
-    left: 320px;
-    top: -265px;
+    left: 260px;
+    top: -270px;
+    right: 50px;
+    padding: 10px;
+    border-spacing: 0px;
+    
+}
+
+
+
+
+
+
+
+
+.upcoming-match{
+    width: 250px;
+    border: 2px solid lightgray;
+    margin-left: 44px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    
 
 
 
 }
+.country-flag{
+    display: flex;
+}
 
+
+
+
+.box-info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+    
+}
 /* footer */
 footer {
     background-color: black;
@@ -210,37 +168,8 @@ footer {
     color: rgb(239, 40, 0);
 }
 
-/* -----------
-Media Queries
----------- */
-/* Mobile Divices */
-
-
-@media only screen and (max-width:688px) {
-    .game-container {
-        width: 100%;
-    }
-
-    .half-side {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: row-reverse;
-
-    }
-
-    
 
 
 
 
 
-
-
-
-    .second-part {
-        display: none;
-
-
-
-    }
-
-}
