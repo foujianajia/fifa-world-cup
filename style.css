@@ -8,7 +8,7 @@ body {
 
 }
 
-.game container:hover {
+game-container:hover {
     color: white;
     background-color: black;
 }
@@ -184,7 +184,7 @@ footer {
     padding-right: 100px;
     width: 100%;
     position: relative;
-    right: 130px;
+    right: 200px;
 
 
 
